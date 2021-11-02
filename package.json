@@ -1,0 +1,27 @@
+{
+  "name": "cors-proxy-server",
+  "version": "1.0.0",
+  "description": "proxy server to execute REST API without cors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaysans/cors-proxy-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjaysans/cors-proxy-server/issues"
+  },
+  "homepage": "https://github.com/sanjaysans/cors-proxy-server#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cls-rtracer": "^2.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  }
+}
