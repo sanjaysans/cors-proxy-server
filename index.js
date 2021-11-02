@@ -7,6 +7,7 @@ var cors = require('cors')
 const logger = require('./logger');
 global.rTracer = rTracer;
 const app = express()
+const port = process.env.PORT || 8080
 
 app.use(cors())
 app.use(bodyParser.urlencoded({
@@ -63,6 +64,6 @@ const API_CALL = async (data) => {
 }
 
 app.listen(port, () => {
-    logger.info(`Example app listening at http://127.0.0.1:${process.env.PORT || 8080}`);
+    logger.info(`Example app listening at http://127.0.0.1:${port}`);
 })
 
